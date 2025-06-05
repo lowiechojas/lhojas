@@ -5,3 +5,27 @@ body{
   padding: 0;
   color: #333;
 }
+
+.nav-list{
+  display: inline-flex;
+  justify-content: space-around;
+  background-color: gradient(to right, #4CAF50, #81C784);
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.nav-menu{
+  list-style: none;
+}
+
+.nav-list-items{
+
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
