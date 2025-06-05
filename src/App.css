@@ -7,15 +7,15 @@ body{
 }
 
 .nav-list{
-  display: inline-flex;
-  justify-content: space-around;
-  background-color: gradient(to right, #4CAF50, #81C784);
+  display: flex;
+  border: solid 1px red;
   padding: 0;
   margin: 0;
 }
 
 a{
   text-decoration: none;
+  color: red;
 }
 
 .nav-menu{
@@ -23,7 +23,6 @@ a{
 }
 
 .nav-list-items{
-
   display: flex;
   flex-direction: row;
   gap: 20px;
